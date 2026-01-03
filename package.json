@@ -1,0 +1,22 @@
+{
+  "name": "recipe-api",
+  "version": "1.0.0",
+  "description": "Recipe CRUD API using Node.js, Express and Sequelize",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "Pallavi Patil",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.19.2",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
